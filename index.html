@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="image/png" sizes="16x16" rel="icon" href="favicon/icons8-xícara-16.png">
+        <title>Café Aroma</title>
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- ===================== HEADER / MENU ===================== -->
+        <header>
+            <h1>Café Aroma</h1>
+            <i class="material-icons">menu</i>
+
+            <nav>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ===================== HERO ===================== -->
+        <section id="hero">
+            <h2>O sabor de uma boa pausa ☕</h2>
+
+            <button class="btn">Ver Cardápio</button>
+        </section>
+
+        <!-- ===================== SOBRE ===================== -->
+        <section id="sobre">
+            <p>
+                O Café Aroma nasceu do desejo de transformar pequenas pausas em
+                momentos especiais. Criado com carinho, o nosso espaço combina
+                cafés selecionados, sabores artesanais e um ambiente acolhedor
+                para você relaxar, conversar e aproveitar cada xícara.
+            </p>
+
+            <p>
+                Cada grão é escolhido a dedo, torrado com cuidado e preparado na
+                hora, pra garantir que cada xícara chegue até você no ponto
+                certo de sabor e aroma. Não é só sobre café — é sobre criar um
+                espaço onde o tempo desacelera.
+            </p>
+
+            <p>
+                Seja para começar bem o dia, fazer aquela pausa no meio da
+                tarde, ou simplesmente ler um livro num canto tranquilo, o Café
+                Aroma foi pensado pra ser o seu lugar. Aqui, cada detalhe é
+                pensado para fazer você se sentir em casa.
+            </p>
+
+            <img
+                src="img/cafearoma.png"
+                alt="Imagem de um café aromático"
+                class="imagem-sobre"
+            />
+        </section>
+
+        <!-- ===================== CARDÁPIO / DESTAQUES ===================== -->
+        <section id="cardapio">
+            <h2>Nosso Cardápio</h2>
+
+            <div class="item-cardapio">
+                <img src="img/cappuccino.jpg" alt="Cappuccino cremoso" />
+                <h3>Cappuccino Cremoso</h3>
+                <p>R$ 12,90</p>
+            </div>
+
+            <div class="item-cardapio">
+                <img src="img/cafeexpresso.jpg" alt="Café Expresso" />
+                <h3>Café Expresso</h3>
+                <p>R$ 8,90</p>
+            </div>
+
+            <div class="item-cardapio">
+                <img src="img/cafemacchiato.jpg" alt="Café Macchiato" />
+                <h3>Café Macchiato</h3>
+                <p>R$ 11,90</p>
+            </div>
+
+            <div class="item-cardapio">
+                <img src="img/cafelatte1.jpg" alt="Café Latte" />
+                <h3>Café Latte</h3>
+                <p>R$ 14,00</p>
+            </div>
+        </section>
+
+        <!-- ===================== DEPOIMENTOS ===================== -->
+        <section id="depoimentos">
+            <h2>O que nossos clientes dizem</h2>
+
+            <div class="card-depoimento">
+                <p>
+                    "O melhor café da região! Ambiente aconchegante e
+                    atendimento incrível."
+                </p>
+                <span>— Mariana Silva</span>
+            </div>
+
+            <div class="card-depoimento">
+                <p>
+                    "O melhor café que já tomei! Ambiente agradável e
+                    atendimento impecável. Recomendo a todos!"
+                </p>
+                <span>— Miguel Lopez</span>
+            </div>
+
+            <div class="card-depoimento">
+                <p>
+                    "Sempre uma experiência maravilhosa! O aroma do café é
+                    inigualável e o atendimento é sempre cordial."
+                </p>
+                <span>— Jade Fernandes</span>
+            </div>
+        </section>
+
+        <!-- ===================== CONTATO / FOOTER ===================== -->
+        <footer id="contato">
+            <div class="info-contato">
+                <h2>Fale Conosco</h2>
+                <p>Rua dos Aromas, 123 - Centro, São Paulo - SP</p>
+                <p>Telefone: (11) 4002-8922</p>
+
+                <div class="redes-sociais">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">WhatsApp</a>
+                </div>
+            </div>
+
+            <form class="form-contato">
+                <label for="nome">Nome</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Seu nome"
+                />
+
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="seuemail@exemplo.com"
+                />
+
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Escreva sua mensagem aqui..."
+                ></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p class="copyright">
+                &copy; 2026 Café Aroma. Todos os direitos reservados.
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
